@@ -1,0 +1,55 @@
+/* Index Page */
+
+@font-face {
+  font-family: header;
+  src: url("fonts/Comforter_Brush/ComforterBrush-Regular.ttf");
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#header {
+  font-family: header;
+  font-size: 60px;
+  text-align: left;
+  color: #d5dad7;
+  letter-spacing: 10px;
+  background-image: url("Images/indexpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -250px;
+  margin-bottom: 50px;
+}
+
+ul > li a {
+  text-decoration: none;
+  color: #365c4d;
+  font-family: header;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: decimal-leading-zero;
+  padding: 15px;
+  color: #365c4d;
+  font-family: header;
+  font-size: 25px;
+}
+
+ul > li.Biryani {
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+ul > li.Dosa {
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+ul > li.Sabudana {
+  margin-left: 620px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
