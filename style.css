@@ -5,51 +5,58 @@
   src: url("fonts/Comforter_Brush/ComforterBrush-Regular.ttf");
 }
 
-* {
+#indexpage {
   margin: 0 auto;
   box-sizing: border-box;
+  background-color: #a3c9a8;
 }
 
 #header {
   font-family: header;
-  font-size: 60px;
-  text-align: left;
-  color: #d5dad7;
-  letter-spacing: 10px;
-  background-image: url("Images/indexpic.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -250px;
-  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #50808e;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  padding: 0 0 30px 0;
+  height: 30vh;
 }
 
-ul > li a {
+ul li a {
   text-decoration: none;
-  color: #365c4d;
+  color: #69a297;
   font-family: header;
-  font-size: 25px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
-ul {
-  list-style-type: decimal-leading-zero;
-  padding: 15px;
-  color: #365c4d;
+ul li {
+  list-style-type: lower-latin;
   font-family: header;
-  font-size: 25px;
+  font-weight: 550;
+  font-size: 30px;
+  color: #69a297;
+  padding: 0 5px 0 0;
 }
 
-ul > li.Biryani {
-  margin-left: 30px;
-  margin-bottom: 60px;
+.list {
+  width: 350px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-ul > li.Dosa {
-  margin-left: 340px;
-  margin-bottom: 20px;
+.footer {
+  position: relative;
+  width: 100px;
+  left: 10px;
+  top: 70px;
+  color: #69a297;
+  font-family: header;
+  font-size: 15px;
+  height: 2vh;
 }
 
-ul > li.Sabudana {
-  margin-left: 620px;
-  margin-right: 20px;
-  margin-top: 30px;
+/* styling CSS for Biryani Link */
+.biryanihead {
+  color: red;
 }
