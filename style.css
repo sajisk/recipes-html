@@ -2,61 +2,65 @@
 
 @font-face {
   font-family: header;
-  src: url("fonts/Comforter_Brush/ComforterBrush-Regular.ttf");
+  src: url("fonts/Shippori_Antique/ShipporiAntique-Regular.ttf");
 }
 
 #indexpage {
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #a3c9a8;
+  height: 100vh;
+  border: 1px #a3c9a8 dashed;
 }
 
-#header {
+#header,
+.biryanihead,
+.dosahead,
+.sabudanahead {
   font-family: header;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: #50808e;
-  letter-spacing: 5px;
   margin-top: 10px;
   padding: 0 0 30px 0;
-  height: 30vh;
 }
 
-ul li a {
+.list li a {
   text-decoration: none;
-  color: #69a297;
+  color: #254741;
   font-family: header;
-  font-size: 30px;
-  letter-spacing: 3px;
+  font-size: 20px;
 }
 
-ul li {
+.list li {
   list-style-type: lower-latin;
   font-family: header;
-  font-weight: 550;
-  font-size: 30px;
-  color: #69a297;
+  font-weight: bold;
+  font-size: 20px;
+  color: #254741;
   padding: 0 5px 0 0;
 }
 
-.list {
+.listindex {
   width: 350px;
   padding: 10px;
   margin: 0 auto;
 }
 
-.footer {
-  position: relative;
-  width: 100px;
-  left: 10px;
-  top: 70px;
-  color: #69a297;
-  font-family: header;
-  font-size: 15px;
-  height: 2vh;
+/* styling CSS for Biryani Link */
+.biryaniimg,
+.dosaimg,
+.sabudanaimg {
+  width: 160px;
+  height: 150px;
+  border-radius: 50px;
 }
 
-/* styling CSS for Biryani Link */
-.biryanihead {
-  color: red;
+.b_body,
+.d_body,
+.s_body {
+  box-sizing: border-box;
+  background-color: rgb(180, 163, 105);
+  font-family: header;
+  font-size: 10px;
 }
